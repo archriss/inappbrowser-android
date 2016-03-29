@@ -51,7 +51,7 @@
     </platform>
 
     <!-- ios -->
-    <platform name="ios">
+    <!-- <platform name="ios">
         <js-module src="www/themeablebrowser.js" name="themeablebrowser">
             <clobbers target="cordova.ThemeableBrowser" />
         </js-module>
@@ -65,5 +65,5 @@
         <source-file src="src/ios/CDVThemeableBrowser.m" />
 
         <framework src="CoreGraphics.framework" />
-    </platform>
+    </platform> -->
 </plugin>
