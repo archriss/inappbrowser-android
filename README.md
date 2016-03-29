@@ -17,8 +17,16 @@
     under the License.
 -->
 
-cordova-plugin-themeablebrowser
+InAppBrowser from ThemableBrowser
 ===============================
+
+## ARCHRISS NOTES
+
+This is a fork of a fork ! Because of [this issue](https://github.com/initialxy/cordova-plugin-themeablebrowser/issues/79), it's not possible to build on iOS.
+Since we're using this [wonderful plugin](https://github.com/Telerik-Verified-Plugins/SafariViewController) to do the same thing, we can ditch inAppBrowser on iOS.
+This allows us to have a *kinda* themed browser on Android & a really good one on iOS.
+
+## README
 
 This plugin is a fork of [org.apache.cordova.inappbrowser](https://github.com/apache/cordova-plugin-inappbrowser). It attempts to retain most of the features of the InAppBrowser. In fact, for the full list of features inherited from InAppBrowser, please refer to [InAppBrowser's documentation](https://github.com/apache/cordova-plugin-inappbrowser/blob/master/README.md).
 
