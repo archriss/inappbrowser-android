@@ -44,6 +44,8 @@
             </feature>
         </config-file>
 
+
+        <source-file src="src/android/res/drawable-xhdpi/close.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ThemeableBrowser.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
         <source-file src="src/android/ThemeableBrowserDialog.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
         <source-file src="src/android/InAppChromeClient.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
