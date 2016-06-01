@@ -44,8 +44,20 @@
             </feature>
         </config-file>
 
-
+        <source-file src="src/android/res/drawable-ldpi/close.png" target-dir="res/drawable-ldpi" />
+        <source-file src="src/android/res/drawable-mdpi/close.png" target-dir="res/drawable-mdpi" />
+        <source-file src="src/android/res/drawable-hdpi/close.png" target-dir="res/drawable-hdpi" />
         <source-file src="src/android/res/drawable-xhdpi/close.png" target-dir="res/drawable-xhdpi" />
+        <source-file src="src/android/res/drawable-xxhdpi/close.png" target-dir="res/drawable-xxhdpi" />
+        <source-file src="src/android/res/drawable-xxxhdpi/close.png" target-dir="res/drawable-xxxhdpi" />
+
+        <source-file src="src/android/res/drawable-ldpi/close_pressed.png" target-dir="res/drawable-ldpi" />
+        <source-file src="src/android/res/drawable-mdpi/close_pressed.png" target-dir="res/drawable-mdpi" />
+        <source-file src="src/android/res/drawable-hdpi/close_pressed.png" target-dir="res/drawable-hdpi" />
+        <source-file src="src/android/res/drawable-xhdpi/close_pressed.png" target-dir="res/drawable-xhdpi" />
+        <source-file src="src/android/res/drawable-xxhdpi/close_pressed.png" target-dir="res/drawable-xxhdpi" />
+        <source-file src="src/android/res/drawable-xxxhdpi/close_pressed.png" target-dir="res/drawable-xxxhdpi" />
+
         <source-file src="src/android/ThemeableBrowser.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
         <source-file src="src/android/ThemeableBrowserDialog.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
         <source-file src="src/android/InAppChromeClient.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
